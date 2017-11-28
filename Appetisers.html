@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <script src="/assets/jquery.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 <style>
 body {
   font-family: helvetica, sans-serif;
@@ -17,7 +17,7 @@ div {
   border-radius: 12px;
 }
 h1 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Cabin', sans-serif;
   text-align: center;
   font-size: 75px;
   color: #aaaaaa;
@@ -97,28 +97,22 @@ small {
 </head>
 
 <body>
-<h1>esha's restaurant</h1>
-<h2>a New York City eatery</h2>
+<p>
+<h1>First recipe</h1>
 <div class="first">
   <p>welsh onion soko <span class="price">$14</span><br />
   <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
 </div>
 
-<div class="second">
-  <p>pastrami boudin tongue <span class="price">$22</span><br />
-  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
-</div>
-  
-<div class="dessert">
-  <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
-</div>
+<p>
 
-<script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
+<button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
 
 </body>
 
