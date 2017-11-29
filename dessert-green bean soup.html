@@ -2,7 +2,6 @@
 <head>
   <link href="/normalize.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <style>
     header {
       text-align: center;
@@ -22,22 +21,25 @@
       background: rgba(0,0,0,0.7);
       margin-top: 190px;
     }
-    ul {
+    ul.type1 {
       display: inline-flex;
       padding: 07px;
       background: rgba(0,0,0,0.7);
       font-size: 20px;
     }
-    li {
+    li.type11 {
       display: inline-block;
       padding: 10px 10px 10px 10px;
+    }
+    li.type22 {
+      font-size: 24px;
     }
     article {
       max-width: 800px;
       padding: 20px;
       margin: 0 auto;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 20px;
+      font-family: 'Cabin', sans-serif;
+      font-size: 15px;
       background-color: 
     }
     .spacer {
@@ -61,25 +63,44 @@
     <h1>Singaporean Food for Thought</h1>
     <div class="spacer">
     </div>
-    <ul>
+    <ul class="type1">
       <li class="type11"><a href="appetiser-popiah.html">Appetisers</a></li>
       <li class="type11"><a href="main-chicken rice.html">Mains</a></li>
       <li class="type11"><a href="dessert-green bean soup.html">Desserts</a></li>
     </ul>
   </header>
   <article>
-    <h2>About Singaporean cuisine</h2>
-    <p>Singaporean cuisine is diverse and contains elements derived from several ethnic groups, as a result of its history as a seaport with a large immigrant population. Influences include the cuisines of the native Malays and the largest ethnic group, the Chinese, as well as Indonesian, Indian, Peranakan and Western traditions (particularly English and Portuguese-influenced Eurasian). Influences from other regions such as Sri Lanka, Thailand and the Middle East are also present.
-
-    In Singapore, food is viewed as crucial to national identity and a unifying cultural thread. Singaporean literature declares eating a national pastime and food a national obsession. Food is a frequent topic of conversation among Singaporeans. Religious dietary strictures do exist; Muslims do not eat pork and Hindus do not eat beef, and there is also a significant group of vegetarians. People from different communities often eat together, while being mindful of each other's culture and choosing food that is acceptable for all.
+    <h2>Green bean soup</h2>
+    <p>This Chinese-style green bean soup, also known as mung bean soup, is an easy Chinese soup dessert that is cooling and sweet, so suitable for the perpetual hot weather in Singapore. Green beans are considered by Chinese as a ‘cooling’ food, and some believe it is a good natural alternative home remedy for acne.
     </p>
   </article>
 
-  <article>
-    <h2> Where is Singapore?</h2>
-    <p> Look here! </p>
+    <div style="text-align: center;"><img src="green bean soup.jpg" class="img-responsive" alt="Image not found">
+    </div>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510562.4533186443!2d103.56335774617358!3d1.3139842649251654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2suk!4v1511897898720" width="100%" height="450" frameborder="0" style="border:100" allowfullscreen></iframe>
+  <article>
+    <h2>Recipe</h2>
+    <p>Serves 2-3 | Prep time: 5 mins | Cook time: 45 mins </p>
+
+<p>
+<ul class="type2">
+  <li class="type22">Ingredients:</li>
+  <li>1/2 cup green beans (mung beans), rinsed and drained</li>
+  <li>1 litre water</li>
+  <li>3 blade pandan leaves, rinsed and tied together</li>
+  <li>Brown sugar, to taste</li>
+</ul>
+
+<ul class="type2">
+
+<li class="type22">Method:</li>
+
+<li>1. Place green beans, water and pandan leaves in a pot. Cover and bring to a boil over high heat. Turn the heat down to low and simmer for 30 to 45 minutes until the beans are soft and start to break down.</li>
+
+<li>2. Remove from heat and stir in dark brown sugar to taste. Serve hot, warm, at room temperature, or cold.</li>
+
+</ul>
+</p>
 
   <script>
     $("button").on("click", function() {
